@@ -2126,7 +2126,11 @@ export enum EmbedEvent {
      *```
      * @version SDK : 1.29.0 | Thoughtspot : 10.2.0.cl
      */
+<<<<<<< Updated upstream
     ParameterChanged = 'parameterChanged'
+=======
+    ParameterChanged = 'parameterChanged',
+>>>>>>> Stashed changes
 }
 
 /**
@@ -3957,8 +3961,9 @@ export enum Action {
      * ```js
      * hiddenAction: [Action.CreateLiveboard]
      * disabledActions: [Action.CreateLiveboard]
+     * ```
      *
-     * @version SDK: 1.31.1 | Thoughtspot: 10.1.0.cl
+     * @version SDK: 1.32.0 | Thoughtspot: 10.1.0.cl
      */
     CreateLiveboard = 'CreateLiveboard',
 
