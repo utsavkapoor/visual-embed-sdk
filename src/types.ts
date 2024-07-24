@@ -588,7 +588,7 @@ export interface EmbedConfig {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface LayoutConfig { }
+export interface LayoutConfig {}
 
 /**
  * Embedded iframe configuration
@@ -2126,11 +2126,7 @@ export enum EmbedEvent {
      *```
      * @version SDK : 1.29.0 | Thoughtspot : 10.2.0.cl
      */
-<<<<<<< Updated upstream
-    ParameterChanged = 'parameterChanged'
-=======
     ParameterChanged = 'parameterChanged',
->>>>>>> Stashed changes
 }
 
 /**
@@ -4055,15 +4051,15 @@ export interface ColumnValue {
         [key: string]: any;
     };
     value:
-    | string
-    | number
-    | boolean
-    | {
-        v: {
-            s: number;
-            e: number;
-        };
-    };
+        | string
+        | number
+        | boolean
+        | {
+              v: {
+                  s: number;
+                  e: number;
+              };
+          };
 }
 
 export interface VizPoint {
